@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Nagendra's Portfolio</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <!-- Used for inheriting -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+  
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "nav-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+ 
+    <!-- Begin page content -->
+    <h1 align = "center"><b>T. S. NAGENDRA</b></h1>
+    <img class="center-block img-responsive" src="IMG-20180218-WA0018.jpg" alt="Chania" width="250" height="50"> 
+    <br>
+    <br>
+    
+    
+   <div class="container">
+       
+    <div class="page-header">
+      <h2>About Me</h2>
+    </div>
+       <p class="lead">You need to write about you!</p>
+       
+    <div class="page-header">
+    <h2>Objectives</h2>
+    </div>
+       
+   <p class = "lead">Seeking an opportunity to work towards the growth of the Organization which provides me a challenging platform to utilize my technical skills and ensures professional growth and personal satisfaction.</p>
+
+       
+    
+       
+  </div>
+
+
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "footer-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+    
+      
+    <!---
+    Taken from Stackoverflow: "https://stackoverflow.com/a/42333464/11646278"
+    This is what helped me. My navigation bar is in the body tag. Entire code for navigation bar is in nav.html file (without any html or body tag, only the code for navigation bar). In the target page, this goes in the head tag:
+    -->
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    
+</body>
+  
+    
+    <script>
+        
+        $(function(){
+          $("#nav-placeholder").load("navBar.html");
+        });
+
+
+        $(function(){
+          $("#footer-placeholder").load("footer.html");
+        });
+        
+    </script>
+    
+</html>
