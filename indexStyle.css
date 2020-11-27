@@ -57,3 +57,58 @@ a.text-muted1:hover { color:red; font-style: italic; }
 p.lead{
     font-size: 20px;
 }
+
+.navbar{
+    background-color: grey;
+
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 20px;
+    font-weight: bolder;
+        
+}
+
+.navbar .nav {
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.navbar-inverse {
+color: white;
+    
+}
+
+
+
+
+
+
+.navbar-inverse {
+color: red;
+}
+
+.navbar-inverse .navbar-brand {
+color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+color: powderblue;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+color: powderblue;
+    
+
+ 
+}
+
+
+
