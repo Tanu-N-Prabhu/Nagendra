@@ -1,0 +1,146 @@
+<!--
+This is the contact page. Also known as "Contact" page, the CSS style sheet is referenced as "contactStyles.css".
+I have used many libraries, code snippets, and icons to build this front page.
+Author: Tanu Nanda Prabhu
+-->
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    
+    <! External libraries and style sheet referencing -->
+    <meta charset="UTF-8">
+    <title>Nagendra's Portfolio</title>
+    <link rel="stylesheet" href="CSS/contactStyle.css">
+    <!-- Used for inheriting -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    
+</head>
+<body>
+  
+    
+    <!-- Navigation bar ---->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "nav-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+ 
+    <br>
+    <br>
+    <br>
+    
+    
+    
+   <div class="container">
+       
+        <h2><b>Contact Details</b></h2>
+       
+       <table class="rwd-table">
+        <tbody>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+
+            </tr>
+            <tr>
+            <td >
+            Born
+            </td>
+            <td data-th="Contact">
+            01 - June - 1996, Karnataka, Bengaluru, India
+            </td>
+            </tr>
+
+            <tr>
+            <td data-th="Company">
+            Residence
+            </td>
+            <td data-th="Contact">
+            No. 9, 3rd cross Anubhavanagar near Moodalpalya, Bangalore, 560021
+
+            </td>
+            </tr>
+            
+            <tr>
+            <td data-th="Company">
+            Nationality
+            </td>
+            <td data-th="Contact">
+            Indian
+            </td>
+            </tr>
+            
+        
+            <tr>
+            <td data-th="Company">
+            Father
+            </td>
+            <td data-th="Contact">
+            T.M. Sridhar
+            </td>
+            </tr>
+
+            <tr>
+            <td data-th="Company">
+            Tech Website
+            </td>
+            <td data-th="Contact">
+            <a href = "https://nagendratech.com/">Nagendra Tech</a>
+            </td>
+            </tr>
+            
+            <tr>
+            <td data-th="Company">
+            Gender
+            </td>
+            <td data-th="Contact">
+            Male
+            </td>
+            </tr>
+
+          
+        </tbody>
+      </table>
+ 
+         
+            
+  </div>
+
+
+    
+    
+    <!-- Footer -->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "footer-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+    
+      
+    <!---
+    Taken from Stackoverflow: "https://stackoverflow.com/a/42333464/11646278"
+    This is what helped me. My navigation bar is in the body tag. Entire code for navigation bar is in nav.html file (without any html or body tag, only the code for navigation bar). In the target page, this goes in the head tag:
+    -->
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    
+</body>
+  
+    
+    <script>
+
+    $(function(){
+    $("#nav-placeholder").load("navBar.html");
+    });
+
+
+    $(function(){
+    $("#footer-placeholder").load("footer.html");
+    });
+
+    </script>
+    
+</html>
