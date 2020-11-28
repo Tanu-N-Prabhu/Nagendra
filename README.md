@@ -6,8 +6,9 @@
 
 ## Responsive Website
 
+<p align = "center">
 
 <img src="Img/main.PNG" width="25%" >
-
+</p>
 
  https://tanu-n-prabhu.github.io/Nagendra/index.html
