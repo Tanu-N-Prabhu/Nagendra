@@ -3,14 +3,14 @@ This is the main page. Also known as "Home" page, the CSS style sheet is referen
 I have used many libraries, code snippets, and icons to build this front page.
 Author: Tanu Nanda Prabhu
 -->
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     
     <!-- External libraries and style sheet referencing -->
     <meta charset="UTF-8">
     <title>Nagendra's Portfolio</title>
-    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="CSS/indexStyle.css">
     <!-- Used for inheriting -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     
@@ -235,94 +235,95 @@ Author: Tanu Nanda Prabhu
     });
 
 
-    function additionalElems(progressElement, value, skillName) {
+function additionalElems(progressElement, value, skillName) {
 
-    var valueChild = document.createElement('span');
-    valueChild.className  = 'progress-bar__value';
-    valueChild.innerHTML = value +'%';
-    progressElement.appendChild(valueChild);
+var valueChild = document.createElement('span');
+valueChild.className  = 'progress-bar__value';
+valueChild.innerHTML = value +'%';
+progressElement.appendChild(valueChild);
 
-    var barChild = document.createElement('div');
-    barChild.className = 'progress-bar__bar';
-    progressElement.appendChild(barChild);
+var barChild = document.createElement('div');
+barChild.className = 'progress-bar__bar';
+progressElement.appendChild(barChild);
 
-    var barInnerChild = document.createElement('div');
-    barInnerChild.className = 'progress-bar__bar-inner';
-    barInnerChild.style.width = value + '%';
-    barChild.appendChild(barInnerChild);
+var barInnerChild = document.createElement('div');
+barInnerChild.className = 'progress-bar__bar-inner';
+barInnerChild.style.width = value + '%';
+barChild.appendChild(barInnerChild);
 
-    var skillChild = document.createElement('span');
-    skillChild.className = 'progress-bar__skill';
-    skillChild.innerHTML = skillName;
-    progressElement.appendChild(skillChild);
-    }
+var skillChild = document.createElement('span');
+skillChild.className = 'progress-bar__skill';
+skillChild.innerHTML = skillName;
+progressElement.appendChild(skillChild);
+}
 
-    var progressBar = document.querySelectorAll('.progress-bar');
+var progressBar = document.querySelectorAll('.progress-bar');
 
-    progressBar.forEach(function(item) {
+progressBar.forEach(function(item) {
 
-    var self = item,
-    barValue = self.getAttribute('data-value'),
-    skillValue = self.getAttribute('data-skill'),
-    effectNum = self.getAttribute('data-effect');
+var self = item,
+barValue = self.getAttribute('data-value'),
+skillValue = self.getAttribute('data-skill'),
+effectNum = self.getAttribute('data-effect');
 
-    additionalElems(self, barValue, skillValue);
+additionalElems(self, barValue, skillValue);
 
-    self.className += ' progress-bar--' + effectNum;
+self.className += ' progress-bar--' + effectNum;
 
-    var valueElem = self.querySelector('.progress-bar__value');
+var valueElem = self.querySelector('.progress-bar__value');
 
-    valueElem.className += ' progress-bar__value--' + effectNum;
+valueElem.className += ' progress-bar__value--' + effectNum;
 
-    var barElem = self.querySelector('.progress-bar__bar');
+var barElem = self.querySelector('.progress-bar__bar');
 
-    barElem.className += ' progress-bar__bar--' + effectNum;
+barElem.className += ' progress-bar__bar--' + effectNum;
 
-    var barInnerElem = self.querySelector('.progress-bar__bar-inner');
+var barInnerElem = self.querySelector('.progress-bar__bar-inner');
 
-    barInnerElem.className += ' progress-bar__bar-inner--' + effectNum;
+barInnerElem.className += ' progress-bar__bar-inner--' + effectNum;
 
-    var skillElem = self.querySelector('.progress-bar__skill');
+var skillElem = self.querySelector('.progress-bar__skill');
 
-    skillElem.className += ' progress-bar__skill--' + effectNum;
+skillElem.className += ' progress-bar__skill--' + effectNum;
 
-    if(self.classList.contains('progress-bar--aligned-values')) {
-    valueElem.style.left = barValue + '%';
-    valueElem.classList.add('progress-bar__value--aligned-value');
-    }
+if(self.classList.contains('progress-bar--aligned-values')) {
+valueElem.style.left = barValue + '%';
+valueElem.classList.add('progress-bar__value--aligned-value');
+}
 
-    if(self.classList.contains('progress-bar--no-overflow')) {
-    barElem.classList.add('progress-bar__bar--no-overflow');
-    }
+if(self.classList.contains('progress-bar--no-overflow')) {
+barElem.classList.add('progress-bar__bar--no-overflow');
+}
 
-    })
+})
 
-    function animationToggle(progressElement, delay) {
+function animationToggle(progressElement, delay) {
 
-    var skillElem = progressElement.querySelector('.progress-bar__skill'),
-    valueElem = progressElement.querySelector('.progress-bar__value'),
-    skillBar = progressElement.querySelector('.progress-bar__bar-inner');
+var skillElem = progressElement.querySelector('.progress-bar__skill'),
+valueElem = progressElement.querySelector('.progress-bar__value'),
+skillBar = progressElement.querySelector('.progress-bar__bar-inner');
 
-    skillElem.classList.remove('js-animated');
-    valueElem.classList.remove('js-animated');
-    skillBar.classList.remove('js-animated');
+skillElem.classList.remove('js-animated');
+valueElem.classList.remove('js-animated');
+skillBar.classList.remove('js-animated');
 
-    setTimeout(function() {
-    skillElem.classList.add('js-animated');
-    valueElem.classList.add('js-animated');
-    skillBar.classList.add('js-animated');
-    }, delay);
-    }
+setTimeout(function() {
+skillElem.classList.add('js-animated');
+valueElem.classList.add('js-animated');
+skillBar.classList.add('js-animated');
+}, delay);
+}
 
-    function onloadAnimation() {
+function onloadAnimation() {
 
-    progressBar.forEach(function(item) {
-    animationToggle(item, 500)
-    });
+progressBar.forEach(function(item) {
+animationToggle(item, 500)
+});
 
-    }
-    document.addEventListener("DOMContentLoaded", onloadAnimation());
+}
+document.addEventListener("DOMContentLoaded", onloadAnimation());
 
 
 </script>
+
 </html>
