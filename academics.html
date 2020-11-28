@@ -1,0 +1,142 @@
+<!--
+This is the academics page. Also known as "Academics" page, the CSS style sheet is referenced as "academicsStyle.css".
+I have used many libraries, code snippets, and icons to build this front page.
+Author: Tanu Nanda Prabhu
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <! External libraries and style sheet referencing -->
+    <meta charset="UTF-8">
+    <title>Nagendra's Portfolio</title>
+    <link rel="stylesheet" href="CSS/academicsStyle.css">
+    <!-- Used for inheriting -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin= "anonymous"></script>
+    
+</head>
+<body>
+  
+    
+    <!-- Navigation bar ---->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "nav-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+ 
+    <br>
+    <br>
+    <br>
+    
+    
+    
+   <div class="container">
+       
+        <h2><b>Educational Qualification</b></h2>
+        <table class="rwd-table">
+        <tbody>
+        <tr>
+        <th>Examination</th>
+        <th>Board/University</th>
+        <th>Institution</th>
+        <th>Aggregate</th>
+        </tr>
+            
+        <tr>
+        <td>
+        B.E in Computer Science (2018)
+        </td>
+
+        <td data-th="Contact">
+        VTU, Belgaum
+        </td>
+
+        <td data-th="Contact">
+        APS College of Engineering, Kanakapura, Bangalore
+        </td>
+
+        <td data-th="Contact">
+        53%
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        P.U.C (2014)
+        </td>
+
+        <td data-th="Contact">
+        Karnataka Board
+        </td>
+
+        <td data-th="Contact">
+        National P.U College, Bangalore
+        </td>
+
+        <td data-th="Contact">
+        63%
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        S. S. L. C (2012)
+        </td>
+
+        <td data-th="Contact">
+        Karnataka Board
+        </td>
+
+        <td data-th="Contact">
+        M.E.S. Convent High School
+        </td>
+
+        <td data-th="Contact">
+        78%
+        </td>
+        </tr>
+
+        </tbody>
+        </table>
+    </div>
+    
+
+
+    
+    
+    <!-- Footer -->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "footer-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+    
+      
+    <!---
+    Taken from Stackoverflow: "https://stackoverflow.com/a/42333464/11646278"
+    This is what helped me. My navigation bar is in the body tag. Entire code for navigation bar is in nav.html file (without any html or body tag, only the code for navigation bar). In the target page, this goes in the head tag:
+    -->
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    
+</body>
+<script>
+        
+$(function(){
+$("#nav-placeholder").load("navBar.html");
+});
+
+
+$(function(){
+$("#footer-placeholder").load("footer.html");
+});
+        
+</script>
+</html>
