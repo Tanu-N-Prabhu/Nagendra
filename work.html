@@ -1,0 +1,120 @@
+<!--
+This is the work experience page. Also known as "Work" page, the CSS style sheet is referenced as "workStyle.css".
+I have used many libraries, code snippets, and icons to build this front page.
+Author: Tanu Nanda Prabhu
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <! External libraries and style sheet referencing -->
+    <meta charset="UTF-8">
+    <title>Nagendra's Portfolio</title>
+    <link rel="stylesheet" href="CSS/workStyle.css">
+    <!-- Used for inheriting -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    
+</head>
+<body>
+  
+    
+    <!-- Navigation bar ---->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "nav-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+ 
+    <br>
+    <br>
+    <br>
+
+    
+   <div class="container">
+       
+        <div class="page-header">
+        <h2><b>Work Experience</b></h2>
+        </div>
+
+        <img class="left-block img-responsive" src="Img/what-is-accenture-770x360.jpg" alt="Chania" width="75%;"> 
+
+        <h3><b>Role</b></h3>
+        <p class = "lead">Networking Associate</p>
+
+        <h3><b>Experience</b></h3>
+        <p class = "lead">1 year and 3 months</p>
+
+        <h3><b>Project</b></h3>
+        <p class = "lead"> Worked for Verizon Project in Service Management Process</p>
+
+        <h4><b>Responsibilities</b></h4>
+       
+        <ul>
+            
+        <li><p class = "lead" align = "justify">Acting as a team members and taking initiatives at the team level to ensure the quality is maintained and same momemtum is gained throughout.
+        </p></li>
+
+
+        <li><p class = "lead" align = "justify">Discussing innovative ideas with the team and ensuring the single vision and focus is carried out in terms of ideas and thought process
+        </p></li>
+
+
+        <li><p class = "lead" align = "justify">Discussing the strategy to overcome the manual intervention during the work process and trying to reduce the number of repetative steps.</p></li>
+
+
+        <li><p class = "lead" align = "justify">Excellent customer service, requirements gathering and data analysis skills, Excellent communication skills to interact with business customer and BI Apps developers. 
+        </p></li>
+
+        <li><p class = "lead" align = "justify">Assisting in configuration change management and ascertaining requirements.</p></li>
+
+        <li><p class = "lead" align = "justify">To handle Customized /complex requests (tickets) where in depending upon each request  and then provide the network documentation from different tools</p></li>
+
+        <li><p class = "lead" align = "justify">Strong ability to communicate clearly and appropriately with Service program managers, and technical subject matter experts.Working on the , verizon tools and gathering the report and as per the client requirement.Document logical and physical network design changes.</p></li>
+
+        <li><p class = "lead" align = "justify">Providing regular incident and change notifications (planned and unplanned) to impacted lines of business and senior managers with appropriate data including business impact, application affected and relevant details regarding incident resolution.</p></li>
+            
+        <li><p class = "lead" align = "justify">Creating and updating Remedy tickets for change and incident management to document monitoring and recovery steps. Capturing incident follow-ups and completing formal post implementation reviews.Produce proactive and trending analysis, service level consulation, process consultation and application of ITIL best practice.</p></li>
+
+        </ul>
+
+  </div>
+
+
+    
+    
+    <!-- Footer -->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "footer-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+    
+      
+    <!---
+    Taken from Stackoverflow: "https://stackoverflow.com/a/42333464/11646278"
+    This is what helped me. My navigation bar is in the body tag. Entire code for navigation bar is in nav.html file (without any html or body tag, only the code for navigation bar). In the target page, this goes in the head tag:
+    -->
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    
+</body>
+  
+    
+<script>
+
+$(function(){
+$("#nav-placeholder").load("navBar.html");
+});
+
+
+$(function(){
+$("#footer-placeholder").load("footer.html");
+});
+
+
+</script>
+
+</html>
