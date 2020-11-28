@@ -46,9 +46,9 @@ code {
 a.text-muted1:hover { color:red; font-style: italic; }
 
 
-               img.center-block{
-                    border-radius: 200px;
-                }
+img.center-block{
+    border-radius: 200px;
+}
 
 
 p.lead{
@@ -78,10 +78,6 @@ color: white;
 }
 
 
-
-
-
-
 .navbar-inverse {
 color: red;
 }
@@ -106,11 +102,6 @@ color: powderblue;
 
  
 }
-
-
-
-
-
 
 
 ul{
