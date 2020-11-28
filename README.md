@@ -39,9 +39,9 @@ Some of the highlighting features are:
 
 ## Repository Contents
 __Here is a map of all the top-level contents listed in the repository:__
-1. __/Img__ - This is where the image files both for the website and the readme are.
-2. __/README.md__ - This is the file you're reading now! :-D
-3. __/CSS__ - This is where all the style sheet (CSS) code for the HTML pages are present. Just click [here](https://github.com/Tanu-N-Prabhu/Nagendra/tree/main/CSS)
+1. __Img__ - This is where the image files both for the website and the readme are.
+2. __README.md__ - This is the file you're reading now! :-D
+3. __CSS__ - This is where all the style sheet (CSS) code for the HTML pages are present. Just click [here](https://github.com/Tanu-N-Prabhu/Nagendra/tree/main/CSS)
 4. __.html__ - This is the all the HTML pages of the website.
 
 ## User Manual
