@@ -1,0 +1,142 @@
+<!--
+This is the articles page. Also known as "Articles" page, the CSS style sheet is referenced as "articleStyle.css".
+I have used many libraries, code snippets, and icons to build this front page.
+Author: Tanu Nanda Prabhu
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <! External libraries and style sheet referencing -->
+    <meta charset="UTF-8">
+    <title>Nagendra's Portfolio</title>
+    <link rel="stylesheet" href="CSS/articlesStyle.css">
+    <!-- Used for inheriting -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    
+</head>
+<body>
+  
+    
+    <!-- Navigation bar ---->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "nav-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+ 
+    <br>
+    <br>
+    <br>
+    
+
+    
+   <div class="container">
+       
+        
+            <div >
+            <h2><b>Article 1</b></h2>
+            <h3><b>Best Android Apps in 2020 for Free download</b></h3>
+            <img src="Img/Flying-Apps-Email-Header-1-e1598709148224.png" class="img-thumbnail" alt="Cinque Terre" width=50%>     
+            </div>
+
+            <a  data-toggle="collapse" data-target="#demo" > <h4>+ Description</h4></a>
+            <div id="demo" class="collapse" align = "justify">
+
+            <!-- Description  -->
+            <p class = "lead">Here it is ladies and gentlemen. The Best Android apps were all-time in 2020 that stand alone on my list. These apps have become most trending nowadays and the content in these apps is very useful on a daily basis. Everyone can use these apps to get the knowledge of these wonderful apps.
+            <a href = "https://nagendratech.com/best-android-apps-all-time/">
+            <br>
+            <b>Read More</b></a>
+            </p>
+
+            </div>
+
+            <br>
+            <br>
+
+
+
+            <div >
+            <h2><b>Article 2</b></h2>
+            <h3><b>The 10 Best Free iOS Apps all-time</b></h3>
+            <img src="Img/download-2-6.jpg" class="img-thumbnail" alt="Cinque Terre" width=50%>     
+            </div>
+
+            <a  data-toggle="collapse" data-target="#demo1" > <h4>+ Description</h4></a>
+            <div id="demo1" class="collapse" align = "justify">
+
+            <!-- Description  -->
+            <p class = "lead">In this blog, I have listed some 10 Best Free IOS Apps all-time in google, which is used by so many iPhone users Nowadays there are so many apps coming in the market to compete with Android Apps. But some apps will not support Android software.
+            <a href = "https://nagendratech.com/the-best-ios-android-apps-all-the-time/">
+            <br>
+            <b>Read More</b></a>
+            </p>
+
+            </div>
+
+            <br>
+            <br>
+
+
+            <div>
+            <h2><b>Article 3</b></h2>
+            <h3><b>The 15 Best Photo Editing Apps all time</b></h3>
+            <img src="Img/images-9.jpg" class="img-thumbnail" alt="Cinque Terre" width=50%>     
+            </div>
+
+            <a  data-toggle="collapse" data-target="#demo2" > <h4>+ Description</h4></a>
+            <div id="demo2" class="collapse" align = "justify">
+
+            <!-- Description  -->
+            <p class = "lead">Welcome Everyone, to my new blog. In this blog, we will discuss the most interesting concept of Photo Editing. Photo Editing is nowadays booming all over the world. The Best 15 Photo Editing Apps will be discussed later in the article.
+            <a href = "https://nagendratech.com/the-15-best-free-photo-editing-apps-all-time/">
+            <br>
+            <b>Read More</b></a>
+            </p>
+
+            </div>
+
+            <br>
+            <br>
+
+       
+  </div>
+
+
+
+    <!-- Footer -->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "footer-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+    
+      
+    <!---
+    Taken from Stackoverflow: "https://stackoverflow.com/a/42333464/11646278"
+    This is what helped me. My navigation bar is in the body tag. Entire code for navigation bar is in nav.html file (without any html or body tag, only the code for navigation bar). In the target page, this goes in the head tag:
+    -->
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    
+</body>
+  
+    
+<script>
+
+$(function(){
+$("#nav-placeholder").load("navBar.html");
+});
+
+
+$(function(){
+$("#footer-placeholder").load("footer.html");
+});
+
+</script>
+
+</html>
