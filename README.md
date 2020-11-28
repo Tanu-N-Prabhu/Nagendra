@@ -11,4 +11,38 @@
 <img src="Img/main.PNG" width="25%" >
 </p>
 
+
+## Features
+
+Some of the highlighting features are:
+
+1. Simple and User-friendly Interface
+2. Easy Navigation
+3. Fast Loading speed
+4. Text justification
+5. Proper space utilization
+6. Very Responsive
+
+
+
+# Installation tools
+### Below are some tools that you can download before getting started in building the application.
+
+| Name of the tools | 
+| ------------- |
+|[HTML 5](https://html.spec.whatwg.org/)|
+|[CSS 3](https://css-tricks.com/)|
+|[Bootstrap 4](https://getbootstrap.com/)|
+|[Javascript](https://www.javascript.com/)|
+|[GitHub](https://github.com/)|
+|[GitHub Pages](https://pages.github.com/)|
+|[Brackets](http://brackets.io/)|
+
+
+
+
+
+
+
+
  https://tanu-n-prabhu.github.io/Nagendra/index.html
