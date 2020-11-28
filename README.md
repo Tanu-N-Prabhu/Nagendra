@@ -46,7 +46,7 @@ __Here is a map of all the top-level contents listed in the repository:__
 
 ## User Manual
 
-The website “T.S. Nagendra” is very easy to use. The user can interact with the application by performing the rudimentary tasks of pressing the tabs, links, menu options as shown below in the form of a table
+This website is very easy to use. The user can interact with the application by performing the rudimentary tasks of pressing the tabs, links, menu options as shown below in the form of a table
 
 | Buttons    | Functions |
 | ----------- | ----------- |
