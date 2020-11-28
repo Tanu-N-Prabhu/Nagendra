@@ -1,0 +1,83 @@
+<!--
+This is the projects page. Also known as "Project" page, the CSS style sheet is referenced as "projectStyle.css".
+I have used many libraries, code snippets, and icons to build this front page.
+Author: Tanu Nanda Prabhu
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <! External libraries and style sheet referencing -->
+    <meta charset="UTF-8">
+    <title>Nagendra's Portfolio</title>
+    <link rel="stylesheet" href="CSS/projectStyle.css">
+    <!-- Used for inheriting -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    
+</head>
+<body>
+  
+    
+    <!-- Navigation bar ---->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "nav-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+ 
+    <br>
+    <br>
+    <br>
+    
+    
+    <div class="container1">
+       
+        <div>
+        <h2><b>Project 1</b></h2>
+        <h3><b>Preserving Context Based Information In Cloud Image repositories</b></h3>
+        <h4><b>Description</b></h4>
+        </div>
+
+        <p class="lead" align = "justify">The above project is done using a java Platform, this is a project which is used to preserve the information and data in the cloud computing environment and whenever user uploads a images into the cloud a key has been generated to user called repository key using that he can store the image and any other user want to access the image he has to request the user to issue  a image key and by using that he can access the image and content of the image description will be in the encrypted format so that attacker attacks he cannot modify the content.
+        </p>
+        
+        <div>
+        <h4><b>Software Used</b></h4>
+        </div>
+        <p class="lead">Java, MySql, MSOffice, Eclipse Junro.</p>
+
+        <div>
+        <h4><b>Team</b></h4>
+        </div>
+        <p class="lead">Team of 4</p>
+
+        <div>
+        <h4><b>Category of project</b></h4>
+        </div>
+        <p class="lead">Coding (Java)</p>
+
+        
+    </div>
+    
+    
+    <!-- Footer -->
+    <!-- Inheriting the navbar from header.html-->
+    <div id = "footer-placeholder"></div>          
+    <!-- Make sure you place it in a div tag -->
+    
+
+</body>
+    
+    <script>
+
+    $(function(){
+    $("#nav-placeholder").load("navBar.html");
+    });
+
+
+    $(function(){
+    $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+    
+</html>
