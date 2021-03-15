@@ -24,6 +24,8 @@ Some of the highlighting features are:
 6. Very Responsive
 
 
+
+
 ## Installation tools
 ### Below are some tools that you can download before getting started in building the application.
 
